@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ form , div{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 2em;
+    background-color:#f2f2f2;
+    border-radius: 8px; 
+ } 
+ label{
+    display: block; 
+    margin-right: 0.5rem 0;
+    color: rgb(207, 136, 5);
+    font-size: 20px;
+    padding-left:1em;
+ } 
+ label:first-child{
+   padding-top: 20px;
+ }
+ h1 , p{
+    margin: 1em auto ;
+    text-align: center;
+    color: rgb(207, 136, 5);
+
+ }
+h1{
+   font-size: 50px;
+   font-weight: 100px;
+}
+p{
+   font-size: 20px;
+   font-weight: 100px;
+   width: 60%;
+}
+
+ input , select{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 80%; 
+    min-height: 2em;
+    height: 2.5rem;
+ }
+ input{
+ border: 1px solid ;
+ border-radius: 5px;
+ }
+input[type="radio"] {
+display:inline;
+width: 20%;
+text-align: center;
+padding: 0;
+margin: 0;
+min-height: 1em;
+height: 1.5rem;
+letter-spacing: 0;
+line-height: 0 ;
+}
+input[type="text"] {
+   display: inline-block;
+   border-radius: 4px;
+   box-sizing: border-box;
+   border: 2px solid ;
+   }
+
+   input[type="text"]:hover{
+      background-color: rgb(135, 145, 151);
+   } 
+   
+   input[type="submit"] {
+      width: 60%;
+      background-color: #3392FF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      }
+   input[type="submit"]:hover{
+      background-color: #3341FF ;
+   }
+   .inline{
+      width: 60%
+    
+   }
